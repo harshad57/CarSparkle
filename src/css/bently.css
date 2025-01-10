@@ -1,0 +1,448 @@
+
+body{
+   padding: 0;
+   margin: 0;
+}
+
+header{
+   background-color: black;
+   border-bottom: 5px solid yellow;
+   outline:10px solid black;
+   height: 110px;
+   text-align: center;
+   display: flex;
+}
+
+.logo{
+   background-size: cover;
+   background-image: url(https://logolook.net/wp-content/uploads/2022/06/Bentley-Logo.png);
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    left: 88%;
+    transform: translateX(-48%);
+   height: 80px;
+   position: absolute;
+   border-radius: 2px;
+   background-repeat: no-repeat;
+   width: 180px;
+}
+.m1{
+   position: absolute;
+   height: 500px;
+   width: 100%;
+   object-position: top;
+   overflow: hidden;
+   padding-top: 80px;
+   padding-bottom: 70px;
+   object-fit: cover;
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+
+.content1{
+   margin-left: 0px;
+   color:black;
+   padding: 10px 20px 10px 20px;
+   border-radius: 50px;
+   font-size: 30px;
+   background-color: rgba(255, 255, 255, 0.322);
+   display: inline;    
+}
+.footer{
+   position: fixed;
+   bottom:0%;
+height: 65px;
+width: 100%;
+flex-direction: column;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+background-color: black;
+color: white;
+gap:10px;
+
+}
+.button{
+width: 100%;
+font-size: 25px;
+display: flex;
+justify-content: center;
+gap: 80%;
+position: fixed;
+top: 50%;
+transform: translateY(-50%);
+}
+
+.button .two, .one{
+cursor: pointer;
+background-color: white; 
+border-radius: 25px;
+padding: 15px;
+}
+.c1{
+display:flex;
+justify-content: space-evenly;
+font-size: 28px;
+gap: 25px;
+align-items: center;
+color: white;
+}
+
+.arrow{
+position: relative;
+text-align: center;
+padding: 0px 3px;
+border-radius: 40%;
+display: inline;
+cursor: pointer;
+}
+.Countach{
+position: absolute;
+left: 45%;
+width:400px;
+padding: 50px;
+margin-top: 20px;
+font-size: 20px;
+border-radius: 10px;
+background-color: rgba(255, 255, 255, 0.178);
+backdrop-filter: blur(6px);
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+display: none;
+}
+.Huracán{
+position: absolute;
+left: 45%;
+width:400px;
+padding: 50px;
+margin-top: 20px;
+font-size: 20px;
+border-radius: 10px;
+background-color: rgba(255, 255, 255, 0.178);
+backdrop-filter: blur(6px);
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+display: none;
+}
+.URUS{
+position: absolute;
+left: 45%;
+width:400px;
+padding: 50px;
+margin-top: 20px;
+font-size: 20px;
+border-radius: 10px;
+background-color: rgba(255, 255, 255, 0.178);
+backdrop-filter: blur(6px);
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+display: none;
+
+}
+.Estoque{
+position: absolute;
+left: 45%;
+width:400px;
+padding: 50px;
+margin-top: 20px;
+font-size: 20px;
+border-radius: 10px;
+background-color: rgba(255, 255, 255, 0.178);
+backdrop-filter: blur(6px);
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+display: none;
+}
+.Temerario{
+position: absolute;
+left: 45%;
+width:400px;
+padding: 50px;
+margin-top: 20px;
+font-size: 20px;
+border-radius: 10px;
+background-color: rgba(255, 255, 255, 0.178);
+backdrop-filter: blur(6px);
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+display: none;
+}
+.Sián{
+position: absolute;
+left: 45%;
+width:400px;
+padding: 50px;
+margin-top: 20px;
+font-size: 20px;
+border-radius: 10px;
+background-color: rgba(255, 255, 255, 0.178);
+backdrop-filter: blur(6px);
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+display: none;
+}
+.dropdown{
+color: white; 
+padding: 20px  0px 0px 180px; 
+font-size: 35px;
+}
+.SIAN{
+position: absolute;
+left: 45%;
+width:400px;
+padding: 50px;
+margin-top: 20px;
+font-size: 20px;
+border-radius: 10px;
+background-color: rgba(255, 255, 255, 0.178);
+backdrop-filter: blur(6px);
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+display: none;
+}
+.fea{
+color: black;
+display: none;
+}
+.LPI{
+position: absolute;
+left: 45%;
+width:400px;
+padding: 50px;
+margin-top: 20px;
+font-size: 20px;
+border-radius: 10px;
+background-color: rgba(255, 255, 255, 0.178);
+backdrop-filter: blur(6px);
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+display: none;
+}
+.TERZO{
+position: absolute;
+left: 45%;
+width:400px;
+padding: 50px;
+margin-top: 20px;
+font-size: 20px;
+border-radius: 10px;
+backdrop-filter: blur(6px);
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+display: none;
+}
+.revuelto{
+display: none;
+}
+
+.revueltofe {
+position: absolute;
+left: 45%;
+width:400px;
+padding: 50px;
+margin-top: 20px;
+font-size: 20px;
+border-radius: 10px;
+background-color: rgba(255, 255, 255, 0.178);
+backdrop-filter: blur(6px);
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+display: none;
+}
+.b2{
+color: black;
+font-size: 25px;
+background-color:rgba(255, 255, 255, 0.322);
+padding: 13px 15px;
+border-radius: 25px;
+}
+.new{
+display: flex;
+gap: 10px;
+}
+.name{
+color: white;
+font-family: "Rubik Wet Paint", system-ui;
+font-size: 40px;
+text-align: center;
+justify-content: center;
+align-items: center;
+margin: 30px;
+
+}
+.home{
+background-color:  rgba(255, 255, 255, 0.308);
+border-radius: 25px;
+color: black;
+margin-left: 0px;
+cursor: pointer;
+padding: 10px 14px 0px 14px;
+
+}
+.dropdown{
+color: white;
+position: absolute;
+/* right: 95%; */
+}
+
+@media(max-width:700px){
+
+body{
+   overflow-X:hidden;
+   padding: 0;
+   margin: 0;
+   background-color: grey;
+}
+header{
+   height: 80px;
+   align-items:center;
+   display: flex;
+}
+.name{
+   font-size: 25px;
+   font-family: "Rubik Wet Paint", system-ui;
+text-align: center;
+justify-content: center;
+align-items: center;   
+margin-left: 10px;
+}
+
+.content1 ,.home , .b2 {
+   font-size: 12px;
+   
+}
+.c1{
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+top:10px;
+white-space: nowrap;
+}
+
+.logo{
+   background-size: cover;
+   background-image: url(https://logolook.net/wp-content/uploads/2022/06/Bentley-Logo.png);
+   
+    background-repeat: no-repeat;
+    left: 92%;
+    transform: translateX(-97%);
+   height: 60px;
+   margin-top: -20px;
+   position: absolute;
+   background-repeat: no-repeat;
+   width: 105px;
+}
+.button{gap: 70%;
+}
+
+.button .one, #two{
+   background-color: rgba(88, 88, 88, 0.8);
+   border:1px solid black;
+  font-size: 15px;
+padding: 15px;
+ border-radius:25px;
+}
+
+.b2{
+   display: none;
+
+}
+.home{
+   display: none;
+}
+
+.main{
+   display:flex;
+   flex-direction: column;
+   gap: 0px;
+}
+.m1  {
+   height:100px;
+   background-color:rgba(19, 19, 19, 0.815);
+   position: relative;
+   object-fit:contain;
+  margin: 0px;
+}
+.fea{
+   font-size:20px;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   font-weight:bold;
+   margin: 0px;
+   padding: 10px 0px 10px;
+   display:block;
+color: white;
+width: 100%;
+ background-color: rgba(19, 19, 19, 0.815);
+text-align: center;
+}
+.revuelto{
+margin-top: 0px;
+height:100px;  
+width: 100%;
+display: block;
+flex-direction: column;
+justify-content: center;
+margin-bottom: 300px;
+} 
+.dropdown{
+font-size:23px;
+position: absolute;
+left: 75%;
+top:10px;
+text-align: center;
+padding: 0px 3px 0px 30px;
+border-radius: 40%;
+display: inline;
+cursor: pointer;
+}
+.mm{
+display: flex; 
+justify-content: space-evenly; 
+}
+.no{
+display: flex;
+justify-content: space-evenly;
+}
+#a,#b,#c,#d{
+width: 150px;
+}
+
+.po{
+display:flex;
+justify-content:center;}
+
+#e{
+display:inline-block;
+}
+
+#a,#b,#c,#d,#e{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+text-align: center;
+font-size: 15px;
+padding: 25px;
+color: black;
+box-shadow: 0px 0px 10px black;
+border-radius: 5px ;
+background-color: white;
+margin: 10px;
+justify-content: center;
+gap:20px;
+transition: .2s;
+}
+#a:hover,#b:hover,#c:hover,#d:hover,#e:hover{
+transform: scale(1.05);
+}
+
+}

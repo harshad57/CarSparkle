@@ -1,0 +1,120 @@
+body {
+    background-image: url("https://media.istockphoto.com/id/1191941530/photo/black-modern-car-3d-illustration.jpg?s=612x612&w=0&k=20&c=fqQez-snbZfYIggo-_1-RzabLbU4UrTqhP5rDZJ_8RQ=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+  }
+  #result{
+    color: black;
+    display: none;
+  }
+
+  * {
+    text-align: center;
+    color: white;
+  }
+
+  .invalid-feedback,
+  .empty-feedback {
+    display: none;
+  }
+
+  .was-validated :placeholder-shown:invalid~.empty-feedback {
+    display: block;
+  }
+
+  .was-validated :not(:placeholder-shown):invalid~.invalid-feedback {
+    display: block;
+  }
+
+  .is-invalid,
+  .was-validated :invalid {
+    border-color: #dc3545;
+  }
+
+  #form {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  #form .w-full {
+    width: 100%;
+    display: flex;
+  }
+
+  #form .w-full div {
+    width: 100%;
+  }
+
+  #form .w-full div label {
+    white-space: nowrap;
+  }
+
+  .w-full div {
+    display: flex;
+  }
+
+  #form div input {
+    border-radius: 6px;
+    padding: 10px;
+    background-color: rgb(26, 25, 25);
+    color: cyan;
+  }
+
+  #nn {
+    background-color: rgba(49, 49, 49, 0.082);
+    color: white;
+    padding: 20px 50px;
+    border-radius: 10px;
+    font-size: larger;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(6px);
+    border: 1px solid cyan;
+
+  }
+
+  #nc {
+    font-size: 35px;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    color: cyan;
+    text-shadow: 0px 0px 6px cyan;
+  }
+
+  #login:hover {
+    color: cyan;
+    border: 2px solid cyan;
+    box-shadow: 0px 0px 6px cyan;
+  }
+  
+
+  @media(max-width:900px) {
+    body {
+      background-image: none;
+      background-color: black;
+    }
+
+    #nn {
+      width: 60%;
+      background-color: black;
+      background-image: url(https://media.istockphoto.com/id/1191941530/photo/black-modern-car-3d-illustration.jpg?s=612x612&w=0&k=20&c=fqQez-snbZfYIggo-_1-RzabLbU4UrTqhP5rDZJ_8RQ=);
+      background-position: center;
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+    #form div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    gap:13px;
+  }
+  }
