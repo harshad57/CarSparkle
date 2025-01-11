@@ -340,7 +340,6 @@ white-space: nowrap;
    width: 105px;
 }
 .button{gap: 70%;
-   height:0;
 background-color:red;}
 
 .button .one, #two{
