@@ -1,2 +1,2 @@
 # CarSparkle
-## ~explore cars~
+## `explore cars`
