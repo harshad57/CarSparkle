@@ -1,2 +1,0 @@
-# CarSparkle
-## explore cars
