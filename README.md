@@ -11,9 +11,9 @@ CarSparkle is a web application that allows users to explore various cars and th
 - User-friendly interface
 
 ### Technologies Used
-- HTML (61.7%)
-- CSS (36.8%)
-- JavaScript (1.5%)
+- HTML
+- CSS
+- JavaScript
 
 ### Installation
 To run the project locally, follow these steps:
